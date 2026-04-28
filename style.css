@@ -1,17 +1,13 @@
 
 .flex{
-    background-color: black;
-    width: 800px;
-    height: 400px;
-    display: flex;
-    border-radius: 100px;
     display: flex;
     flex-direction: column;
-    
-}
-
-div{
-
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 100px;
+    width: 1000px;
 }
 
 p{
