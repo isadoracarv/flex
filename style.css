@@ -2,23 +2,92 @@
 .flex{
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(192, 98, 137);
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 100px;
     width: 1000px;
+    margin: 15px auto;
 }
 
-p{
+ul{
     color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    padding: 6px;
 }
 
 a{
     color: rgb(255, 192, 202);
+    padding: 5px;
 }
 
 h1{
-    color: palevioletred;
+    color: rgb(255, 174, 201);
     font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    border-radius: 1000px;
+    border: 20px solid rgb(250, 179, 232);
+    width: 260px;
+    height: 258px;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+section{
+    background-color: rgb(250, 150, 188);
+    width: 700px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.filha{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(198, 143, 250);
+    border: 1px solid black;
+
+}
+p{
+    padding: 5px;
+}
+
+.section-card{
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+header{
+    width: 100%;
+    background-color: rgb(134, 78, 141);
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+.card{
+    width: 20%;
+    background-color: rgb(221, 162, 172);
+    height: 33vh;
+    color: rgb(0, 0, 0);
+    margin: 24px;
+}
+.card img{
+    display: block;
+    margin: auto;
 }
