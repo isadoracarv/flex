@@ -1,0 +1,28 @@
+
+.flex{
+    background-color: black;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div{
+
+}
+
+p{
+    color: white;
+}
+
+a{
+    color: rgb(255, 192, 202);
+}
+
+h1{
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+}
